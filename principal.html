@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Principal - Innovatec</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="principal.css">
+    <link rel="stylesheet" href="home.css">
+    <style>
+        /* Alinea el título y el botón de inicio de sesión */
+        .header-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px;
+        }
+
+        .header-container h1 {
+            margin: 0;
+            flex-grow: 1;
+        }
+
+        .login-btn {
+            padding: 10px 15px;
+            background-color: #b470c7;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        .login-btn:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1>Bienvenido a NUTRYSMART</h1>
+            <a href="login.php" class="btn login-btn">Iniciar Sesión</a>
+        </div>
+        <p>Elige tu tipo de cuenta y empieza a disfrutar de nuestros servicios</p>
+        <section id="descripcion">
+            <p>NutrySmart es la plataforma que conecta a clientes con expertos en nutrición, repartidores y distribuidores de alimentos saludables. Regístrate y accede a planes alimenticios personalizados, ofrece tus servicios como freelancer o únete a nuestra red de distribución para llevar una vida más saludable y práctica.</p>
+        </section>
+    </header>
+
+    <!-- Sección de imágenes -->
+    <section class="hero">
+        <img src="img/nutrición.jpg" alt="Nutrición" class="hero-img">
+        <img src="img/nutricion2.jpeg" alt="Distribución" class="hero-img">
+        <img src="img/nutricion3.jpeg" alt="Entrega de alimentos" class="hero-img">
+    </section>
+
+    <main class="options-container">
+        <div class="option-card">
+            <img src="img/cliente.png" alt="Cliente" class="icon-img">
+            <h2>Cliente</h2>
+            <p>Accede a planes alimenticios personalizados.</p>
+            <a href="registro.php" class="btn">Registrarse</a>
+        </div>
+        
+        <div class="option-card">
+            <img src="img/freelancer.avif" alt="Freelancer" class="icon-img">
+            <h2>Freelancer</h2>
+            <p>Comparte tus conocimientos y gana dinero.</p>
+            <a href="registro_freelancer.php" class="btn">Registrarse</a>
+        </div>
+        
+        <div class="option-card">
+            <img src="img/delivery.webp" alt="Delivery" class="icon-img">
+            <h2>Delivery</h2>
+            <p>Únete a nuestro equipo de repartidores.</p>
+            <a href="registro_delivery.php" class="btn">Registrarse</a>
+        </div>
+        
+        <div class="option-card">
+            <img src="img/distribuidor.webp" alt="Distribuidor" class="icon-img">
+            <h2>Distribuidor</h2>
+            <p>Conéctate con clientes y vende tus productos.</p>
+            <a href="registro_distribuidor.php" class="btn">Registrarse</a>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 NUTRYSMART - Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,131 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Encabezado */
+header {
+    background: linear-gradient(to right, #75caac, #5aa88c);
+    color: #fff;
+    padding: 30px 10px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+/* Sección de imágenes */
+.hero {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 30px 0;
+}
+
+.hero-img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.hero-img:hover {
+    transform: scale(1.05);
+}
+
+/* Botón de Iniciar Sesión */
+.login-container {
+    margin: 20px 0;
+}
+
+.login-btn {
+    padding: 12px 25px;
+    background: #ff7043;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background 0.3s ease-in-out;
+}
+
+.login-btn:hover {
+    background: #e64a19;
+}
+
+/* Contenedor de opciones */
+.options-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 10px;
+}
+
+/* Tarjetas de Opción */
+.option-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    width: 280px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.option-card:hover {
+    transform: translateY(-5px);
+}
+
+.option-card h2 {
+    color: #333;
+    font-size: 22px;
+}
+
+.option-card p {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Botones de registro */
+.btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #b470c7;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #5aa88c;
+}
+
+/* Footer */
+footer {
+    background: #222;
+    color: #fff;
+    padding: 15px;
+    margin-top: 20px;
+}
+.option-card img {
+    width: 50px;  /* Ajusta el tamaño según lo necesites */
+    height: auto; /* Mantiene la proporción */
+    display: block; /* Asegura que se alineen correctamente */
+    margin: 0 auto 10px auto; /* Centra la imagen y añade espacio abajo */
+}

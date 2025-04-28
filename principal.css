@@ -1,0 +1,36 @@
+/* Sección de imágenes */
+.hero {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.hero-img {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Botón de Inicio de Sesión */
+.login-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.login-btn {
+    display: inline-block;
+    padding: 15px 25px;
+    background: #b470c7;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.login-btn:hover {
+    background: #00b348;
+}
+
